@@ -1,0 +1,9 @@
+dev-appraisal/
+  apps/
+    web/                 # Next.js (App Router)
+  services/
+    api/                 # FastAPI
+      appraisal_engine/  # pure calculation package
+  infra/
+    docker-compose.yml
+  README.md
