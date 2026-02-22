@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
-import ... from "../lib/api";
+import { postJSON } from "@/lib/api";
 
 type Assumptions = {
   revenue: { sellable_area_m2: number; exit_price_per_m2: number };
